@@ -1,0 +1,16 @@
+atures
+Simplifies miniaudio usage exposing only basic functionality
+Audio formats supported: .wav, .qoa, .ogg, .mp3, .flac, .xm, .mod
+Select desired input formats at compilation time
+Load and play audio, static or streamed modes
+Support for plugable audio effects with callbacks
+library
+raudio is distributed as two main files:
+
+raudio.h: It contains the API declaration with all the exposed functionality
+raudio.c: It contains the implementation of the library, including all the external required libraries, all of them single-file header-only libraries.
+usage
+For usage example, it's recommended to check the provided examples. They also contain detailed documentation at the start of the examples.
+
+license
+raudio is licensed under an unmodified zlib/libpng license, which is an OSI-certified, BSD-like license that allows static linking with closed source software. Check LICENSE for further details.
